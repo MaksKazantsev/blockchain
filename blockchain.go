@@ -6,7 +6,7 @@ type Blockchain struct {
 }
 
 // NewBlockChain inits new example of a blockchain
-func (b *Blockchain) NewBlockChain() *Blockchain {
+func NewBlockChain() *Blockchain {
 	return &Blockchain{[]*Block{NewGenesisBlock()}}
 }
 
